@@ -1,0 +1,21 @@
+{
+  "name": "adsti-graph-traversal-node",
+  "version": "1.0.0",
+  "description": "Node.js code for Graph Traversal mini challenge",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": false,
+    "testMatch": [
+      "<rootDir>/tests/*test.js"
+    ]
+  }
+}
